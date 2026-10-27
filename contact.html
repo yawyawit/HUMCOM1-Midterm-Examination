@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact {
+            background-color: white;
+            width: 85%;
+            margin: 30px auto;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .contact h2,
+        .contact > p {
+            text-align: center;
+        }
+        .details {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .info, .form {
+            width: 50%;
+        }
+        .form input,
+        .form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        .form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #555;
+            color: white;
+            border: none;   
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="brand">
+            <h1>Rekam Yaw's Midterm Portfolio</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <a href="index.html" >HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="services.html">SERVICES</a>
+        <a href="media.html">MEDIA</a>
+        <a href="contact.html" class="active">CONTACT</a>
+    </nav>
+
+    <div class="contact">
+
+        <h2>Contact Details</h2>
+    
+
+        
+        <center>
+            <div class="form">
+                <form>
+                    <label>FULL NAME</label>
+                    <input type="text" placeholder="Your name" required>
+
+                    <label>EMAIL ADDRESS</label>
+                    <input type="email" placeholder="Your email" required>
+
+                    <label>INQUIRY TYPE</label>
+                    <input type="email" placeholder="Your email" required>
+
+
+
+                    <label>COMMENT / MESSAGE</label>
+                    <textarea rows="3" placeholder="Write your message here..." required></textarea>
+
+                    <button type="submit">SEND MESSAGE</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</center>
+    <footer class="footer">
+        <p>@Developed by Rekam |HUMAN_COMPUTER INTERACTION</p>
+    </footer>
+
+</body>
+</html>
